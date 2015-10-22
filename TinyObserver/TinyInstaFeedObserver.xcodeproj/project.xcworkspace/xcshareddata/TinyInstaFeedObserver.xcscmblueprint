@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6E5258D702F17D44885BB5CB1754A9F45978E96A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "84CD8E4C56C7BC21573CE36216B9E75ADA49952D" : 0,
+    "6E5258D702F17D44885BB5CB1754A9F45978E96A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EED43413-CA70-412C-9368-3822CE8A91D3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "84CD8E4C56C7BC21573CE36216B9E75ADA49952D" : "..",
+    "6E5258D702F17D44885BB5CB1754A9F45978E96A" : "JackLapin\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TinyInstaFeedObserver",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TinyInstaFeedObserver\/TinyInstaFeedObserver.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YAInternship2015\/JackLapin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6E5258D702F17D44885BB5CB1754A9F45978E96A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lapin-ev\/study_itStep",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "84CD8E4C56C7BC21573CE36216B9E75ADA49952D"
+    }
+  ]
+}

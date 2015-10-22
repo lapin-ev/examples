@@ -1,0 +1,54 @@
+//
+//  header.pch
+//  TinyInstaFeedObserver
+//
+//  Created by Jack Lapin on 15.10.15.
+//  Copyright © 2015 Jack Lapin. All rights reserved.
+//
+
+#import "LEAPIClient.h"
+#import "LEDataSource.h"
+
+#pragma mark UI constants and dimentions
+
+static int const kCellImagePreferedSize = 99;
+static int const kColorsFromUserAvatar = 16;
+
+#pragma mark Data Model Attributes names
+
+static NSString *const kModelId = @"modelID";
+static NSString *const kModelDecription = @"caption";
+static NSString *const kModelImg = @"imageURL";
+static NSString *const kModelDateAdded = @"dateAdded";
+
+#pragma mark - Stroryboard IDs
+
+static NSString *const TableControllerID = @"LETableViewController";
+static NSString *const CollectionControllerID = @"LECollectionViewController";
+static NSString *const EmbedContainerID = @"EmbedContainer";
+
+#pragma mark - Notifications
+
+static NSString *const NotificationDataFileContentDidChange = @"NotificationDataFileContentDidChange";
+static NSString *const NotificationLoginWasAcquired= @"NotificationLoginWasAcquired";
+static NSString *const NotificationNewDataNeedToDownload= @"NotificationNewDataNeedToDownload";
+static NSString *const NotificationUserAvatarPrepare= @"NotificationUserAvatarPrepare";
+static NSString *const NotificationTokenWasAcquiredReadyToParce= @"NotificationTokenWasAcquiredReadyToParce";
+
+
+#define  captionObject(i, arr)\
+[[arr[i] objectForKey:@"caption"] objectForKey:@"text"]
+
+#define  imageSRObject(i, arr)\
+[[[arr[i] objectForKey:@"images"] objectForKey:@"standard_resolution"] objectForKey:@"url"]
+
+#define  idStringObject(i, arr)\
+[arr[i] objectForKey:@"id"]
+
+#define modelIDObject(i, arr, dataSource)\
+[[dataSource modelWithID:idStringObject(i, arr)] valueForKey:@"modelID"]
+
+#ifndef header_pch
+#define header_pch
+
+#endif /* header_pch */

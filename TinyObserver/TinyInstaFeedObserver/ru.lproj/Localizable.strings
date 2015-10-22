@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  TinyInstaFeedObserver
+
+  Created by Jack Lapin on 14.10.15.
+  Copyright © 2015 Jack Lapin. All rights reserved.
+*/
+
+"The Name must be at least 3 characters." = "Наименование не может содержать менее 3-х символов";
+"To see more, you should logIn first!" = "Нужно авторизироваться для догрузки конента";
+"Error" = "Ошибка";
+"Warning" = "Предупреждение";
+"OK" = "ОК";
+"Logged as - " = "Вы вошли как - ";
