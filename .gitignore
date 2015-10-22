@@ -1,0 +1,28 @@
+#OSX files
+*.DS_Store
+
+#resources
+/Pods/*
+
+#flash sources
+*.fla
+
+#flash binaries
+*.swf
+
+#win files
+desktop.ini
+thumbs.db
+
+#assets
+assets/*
+
+#android bin
+*.apk
+
+.idea/*
+
+log/*
+logs/*
+*.log
+*.zip
